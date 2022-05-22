@@ -1,0 +1,105 @@
+body{
+	background-image:url(skyday.jpg);
+	background-size:cover;
+}
+svg{
+	width: 20px;
+
+}
+h1, h2, h3, ul{
+color:#eaf6f6;
+font-weight:bolder;
+text-align:center;
+font-family: 'Amaranth', sans-serif;
+display:block;
+padding:20px;
+margin:0 auto;
+}
+.row{
+	color:#eaf6f6;
+	font-weight:bolder;
+	text-align:center;
+	font-family: 'Amaranth', sans-serif;
+	display:block;
+	padding:20px;
+	margin:0 auto;
+	font-size: 16px;
+	}
+#detailWeather{
+	font-family: 'Amaranth', sans-serif;
+	padding:0;
+	margin:0 auto;
+	display:block;
+	font-size:15px;
+	}
+li{
+	color:#eaf6f6;
+	font-weight:bolder;
+	text-align:center;
+	font-family: 'Amaranth', sans-serif;
+	display:block;
+	justify-content: center;
+	padding:5px;
+	margin:0 auto;
+	list-style:none;
+	font-size: 15px;
+}
+h1{
+	color:#eaf6f6;
+	font-size:25px;
+	padding: 30px 5px;
+	position:relative
+}
+h2{
+	color:#eaf6f6;
+	font-size:25px;
+	position:relative;
+}
+
+a{
+	color:#eaf6f6;
+	outline:none;
+	text-decoration:none;
+	cursor:pointer
+}
+a:hover{
+	text-decoration:none;
+}
+a:active{
+	text-decoration: none;
+}
+.temperature{
+	color:#eaf6f6;
+	font-size:35px;	
+}
+.row{
+	color:#eaf6f6;
+	font-family: 'Amaranth', sans-serif;
+}
+.input-group-text{
+	font-family: 'Amaranth', sans-serif;
+}
+button{
+	background: none;
+	color: inherit;
+	border: 0;
+	padding: right 25px;
+	cursor:pointer;
+	outline: inherit;
+}
+p{
+	font-family: 'Amaranth', sans-serif;
+	text-align: center;
+	color:#eaf6f6
+}
+.container{
+	border:5px;
+	border-color: white; 
+	border-style: solid;
+	border-radius: 20px;
+	padding: 70px;
+	margin: 50px 50px;
+}
+.weather-forecast-temperature-min {
+	opacity: 0.7;
+  }
